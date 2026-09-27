@@ -9,7 +9,9 @@
 }
 
 body {
+
   margin: 0;
+
 }
 
 h1,
@@ -27,7 +29,9 @@ li {
 }
 
 a {
+
   color: inherit;
+
 }
 
 button,
@@ -35,6 +39,10 @@ input {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+}
+
+button:focus {
+  outline: none;
 }
 
 ul,
